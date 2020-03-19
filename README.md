@@ -1,1 +1,1 @@
-[Image](/images/resume.jpg)
+![Image description](resume.jpg)
