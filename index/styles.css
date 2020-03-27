@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.page {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu {
+	background-color: #5995DA;
+	height: 80px;
+}
+
+.header {
+	height: auto;
+	justify-content: inherit;
+	align-items: inherit;
+}
+
+.photo img {
+	width: 100%;
+	display: block;
+}
+
+.content {
+	background-color: #EAEDF0;
+	height: 600px;
+}
+
+.sign-up {
+	background-color: #D6E9FE;
+}
+
+
+
+
+.contact-1 {
+	background-color: red;
+}
+
+.contact-2 {
+	background-color: orange;
+}
+
+.sticker-sol{
+	background-color: yellow;
+}
+
+.intro	{
+	background-color: green;
+}
+
+.about-me	{
+	background-color: blue;
+}
+
+.skills	{
+	background-color: indigo;
+}
+
+.projects	{
+	background-color: violet;
+}
+
+.illustration img {
+	width: 100%;
+	display: block;
+}
+
+/************** MEDIA STYLES *******************/
+/* Mobile Styles */
+@media only screen and (max-width: 414px) {
+	body {
+		background-color: #F09A9D; /* Red */
+	}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 415px) and (max-width: 960px) {
+	.sign-up,
+	.feature-1,
+	.feature-2,
+	.feature-3 {
+		width: 50%;
+	}
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+	.page {
+		width: 960px;
+		margin: 0 auto;
+	}
+	
+	.contact-1,
+	.contact-2 {
+		width: 25%;
+	}
+
+	.sticker-sol,
+	.intro,
+	.about-me,
+	.skills {
+		width: 50%;
+	}
+	
+	.header {
+		height: 400px;
+	}
+	
+	.sign-up {
+		height: 200px;
+		order: 1;
+	}
+	
+	.content {
+		order: 2;
+	}
+}
